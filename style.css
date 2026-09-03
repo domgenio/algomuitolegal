@@ -1,9 +1,13 @@
-body {
-    background-color: #1a1a2e;
-    color: #e6e6fa;
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
-h1 {
-    color: #e6e6fa;
-    font-size: 75px;
-}   
+.videos iframe {
+    width: 30%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
