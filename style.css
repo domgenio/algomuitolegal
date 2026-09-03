@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(18, 219, 152);
+    background-color: #1a1a2e;
+    color: #e6e6fa;
 }
 
 h1 {
-    color: black;
+    color: #e6e6fa;
     font-size: 75px;
-    
-}
+}   
